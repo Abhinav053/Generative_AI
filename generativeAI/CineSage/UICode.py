@@ -17,7 +17,7 @@ def get_model():
     return init_chat_model(
         "gemini-2.5-flash",
         model_provider="google_genai",
-        google_api_key=os.getenv("GEMINI_API_KEY")
+        google_api_key=os.getenv("GEMNI_API_KEY")
     )
 
 model = get_model()

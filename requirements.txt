@@ -4,3 +4,5 @@ langchain-google-genai
 python-dotenv
 streamlit
 pydantic
+scikit-learn
+numpy
